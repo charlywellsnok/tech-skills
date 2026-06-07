@@ -1,12 +1,16 @@
-import { useState } from 'react'
-
+import {useState} from "react";
+import './App.css';
+import Calendar from './components/Calendar'
 
 const App = () => {
-   return(
-     
-   )
+
+  return (
+    <div className="App">
+      <h1>Itinerary for 7 Days in Chicago</h1>
+      <h2>Welcome to Chicago, Natalia! Check out this calender to get to know the city and see all the sights during your stay.</h2>
+      <Calendar/>
+    </div>
+  )
 }
 
-export default App
-
-
+export default App;
